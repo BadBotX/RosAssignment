@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/assignment2_ros2/assignment2_ros2.egg-info/PKG-INFO
+../../build/assignment2_ros2/assignment2_ros2.egg-info/SOURCES.txt
+../../build/assignment2_ros2/assignment2_ros2.egg-info/dependency_links.txt
+../../build/assignment2_ros2/assignment2_ros2.egg-info/entry_points.txt
+../../build/assignment2_ros2/assignment2_ros2.egg-info/requires.txt
+../../build/assignment2_ros2/assignment2_ros2.egg-info/top_level.txt
+../../build/assignment2_ros2/assignment2_ros2.egg-info/zip-safe
+assignment2_ros2/__init__.py
+assignment2_ros2/generate_random_point_service.py
+assignment2_ros2/move_robot_ui_client.py
+resource/assignment2_ros2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

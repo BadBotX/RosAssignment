@@ -1,0 +1,249 @@
+[0.017s] Invoking command in '/root/assignment2/a2ros2ws/build/assignment2_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/assignment2/a2ros2ws/src/assignment2_srv -DCMAKE_INSTALL_PREFIX=/root/assignment2/a2ros2ws/install/assignment2_srv
+[0.101s] -- The C compiler identification is GNU 9.3.0
+[0.175s] -- The CXX compiler identification is GNU 9.3.0
+[0.184s] -- Check for working C compiler: /usr/bin/cc
+[0.267s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.270s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.385s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.500s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.630s] -- Detecting CXX compile features
+[0.631s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.668s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.668s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.981s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.994s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.130s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.177s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.383s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.554s] -- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.759s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.762s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.797s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[1.797s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.797s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.797s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.824s] -- Found PythonExtra: .so  
+[1.881s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.908s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.913s] -- Added test 'lint_cmake' to check CMake code style
+[1.915s] -- Added test 'xmllint' to check XML markup files
+[1.922s] -- Configuring done
+[1.966s] -- Generating done
+[1.974s] -- Build files have been written to: /root/assignment2/a2ros2ws/build/assignment2_srv
+[1.981s] Invoked command in '/root/assignment2/a2ros2ws/build/assignment2_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/assignment2/a2ros2ws/src/assignment2_srv -DCMAKE_INSTALL_PREFIX=/root/assignment2/a2ros2ws/install/assignment2_srv
+[1.985s] Invoking command in '/root/assignment2/a2ros2ws/build/assignment2_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/assignment2/a2ros2ws/build/assignment2_srv -- -j8 -l8
+[2.036s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.036s] [35m[1mScanning dependencies of target assignment2_srv__cpp[0m
+[2.049s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.596s] [  5%] Built target assignment2_srv__cpp
+[2.598s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_generator_c[0m
+[2.610s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.613s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.613s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.613s] [ 15%] [32mBuilding C object CMakeFiles/assignment2_srv__rosidl_generator_c.dir/rosidl_generator_c/assignment2_srv/srv/detail/user_input__functions.c.o[0m
+[2.621s] [ 17%] [32mBuilding C object CMakeFiles/assignment2_srv__rosidl_generator_c.dir/rosidl_generator_c/assignment2_srv/srv/detail/generate_point__functions.c.o[0m
+[2.700s] [ 20%] [32m[1mLinking C shared library libassignment2_srv__rosidl_generator_c.so[0m
+[2.744s] [ 20%] Built target assignment2_srv__rosidl_generator_c
+[2.757s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.762s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.130s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_cpp[0m
+[3.151s] [ 28%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_srv/srv/generate_point__type_support.cpp.o[0m
+[3.152s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_introspection_cpp[0m
+[3.152s] [ 30%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_srv/srv/user_input__type_support.cpp.o[0m
+[3.175s] [ 35%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_srv/srv/detail/generate_point__type_support.cpp.o[0m
+[3.175s] [ 35%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_srv/srv/detail/user_input__type_support.cpp.o[0m
+[3.254s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_c[0m
+[3.254s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_fastrtps_cpp[0m
+[3.275s] [ 38%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_srv/srv/user_input__type_support.cpp.o[0m
+[3.279s] [ 41%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_srv/srv/generate_point__type_support.cpp.o[0m
+[3.293s] [ 43%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_srv/srv/detail/dds_fastrtps/generate_point__type_support.cpp.o[0m
+[3.338s] [ 46%] [32m[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_c.so[0m
+[3.343s] [ 48%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_srv/srv/detail/dds_fastrtps/user_input__type_support.cpp.o[0m
+[3.421s] [ 48%] Built target assignment2_srv__rosidl_typesupport_c
+[3.434s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_introspection_c[0m
+[3.456s] [ 51%] [32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_srv/srv/detail/generate_point__type_support.c.o[0m
+[3.457s] [ 53%] [32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_srv/srv/detail/user_input__type_support.c.o[0m
+[3.524s] [ 56%] [32m[1mLinking C shared library libassignment2_srv__rosidl_typesupport_introspection_c.so[0m
+[3.580s] [ 56%] Built target assignment2_srv__rosidl_typesupport_introspection_c
+[3.690s] [ 58%] [32m[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_cpp.so[0m
+[3.724s] [ 61%] [32m[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_introspection_cpp.so[0m
+[3.754s] [ 61%] Built target assignment2_srv__rosidl_typesupport_cpp
+[3.783s] [ 61%] Built target assignment2_srv__rosidl_typesupport_introspection_cpp
+[4.006s] [ 64%] [32m[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.107s] [ 64%] Built target assignment2_srv__rosidl_typesupport_fastrtps_cpp
+[4.119s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.638s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_fastrtps_c[0m
+[4.661s] [ 71%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_srv/srv/detail/user_input__type_support_c.cpp.o[0m
+[4.661s] [ 71%] [32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_srv/srv/detail/generate_point__type_support_c.cpp.o[0m
+[5.110s] [ 74%] [32m[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_fastrtps_c.so[0m
+[5.211s] [ 74%] Built target assignment2_srv__rosidl_typesupport_fastrtps_c
+[5.223s] [35m[1mScanning dependencies of target assignment2_srv[0m
+[5.237s] [ 74%] Built target assignment2_srv
+[5.249s] [35m[1mScanning dependencies of target assignment2_srv__py[0m
+[5.261s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.250s] [ 76%] Built target assignment2_srv__py
+[6.262s] [35m[1mScanning dependencies of target assignment2_srv__python[0m
+[6.295s] [ 82%] [32mBuilding C object CMakeFiles/assignment2_srv__python.dir/rosidl_generator_py/assignment2_srv/srv/_generate_point_s.c.o[0m
+[6.295s] [ 82%] [32mBuilding C object CMakeFiles/assignment2_srv__python.dir/rosidl_generator_py/assignment2_srv/srv/_user_input_s.c.o[0m
+[6.418s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/assignment2_srv/libassignment2_srv__python.so[0m
+[6.464s] [ 84%] Built target assignment2_srv__python
+[6.480s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_c__pyext[0m
+[6.480s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.482s] [35m[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_introspection_c__pyext[0m
+[6.504s] [ 87%] [32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/assignment2_srv/_assignment2_srv_s.ep.rosidl_typesupport_c.c.o[0m
+[6.505s] [ 89%] [32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/assignment2_srv/_assignment2_srv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.509s] [ 92%] [32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/assignment2_srv/_assignment2_srv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.636s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/assignment2_srv/assignment2_srv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.639s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/assignment2_srv/assignment2_srv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.645s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/assignment2_srv/assignment2_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.680s] [100%] Built target assignment2_srv__rosidl_typesupport_introspection_c__pyext
+[6.683s] [100%] Built target assignment2_srv__rosidl_typesupport_c__pyext
+[6.730s] [100%] Built target assignment2_srv__rosidl_typesupport_fastrtps_c__pyext
+[6.744s] Invoked command in '/root/assignment2/a2ros2ws/build/assignment2_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/assignment2/a2ros2ws/build/assignment2_srv -- -j8 -l8
+[6.851s] Invoking command in '/root/assignment2/a2ros2ws/build/assignment2_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/assignment2/a2ros2ws/build/assignment2_srv
+[6.861s] -- Install configuration: ""
+[6.861s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/my_mapping_rules.yaml
+[6.862s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/ament_index/resource_index/rosidl_interfaces/assignment2_srv
+[6.862s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv
+[6.863s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv
+[6.863s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/generate_point.h
+[6.864s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/user_input.h
+[6.864s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail
+[6.864s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__functions.c
+[6.865s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__functions.c
+[6.865s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__struct.h
+[6.866s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__type_support.h
+[6.866s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__functions.h
+[6.866s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__type_support.h
+[6.866s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__functions.h
+[6.867s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__struct.h
+[6.867s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg
+[6.867s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg/rosidl_generator_c__visibility_control.h
+[6.867s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/library_path.sh
+[6.868s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/library_path.dsv
+[6.868s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_generator_c.so
+[6.868s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_generator_c.so" to ""
+[6.868s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv
+[6.869s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv
+[6.869s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail
+[6.869s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__rosidl_typesupport_fastrtps_c.h
+[6.869s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__rosidl_typesupport_fastrtps_c.h
+[6.869s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg
+[6.870s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.870s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_fastrtps_c.so
+[6.870s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_fastrtps_c.so" to ""
+[6.871s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv
+[6.871s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv
+[6.871s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail
+[6.871s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__rosidl_typesupport_fastrtps_cpp.hpp
+[6.871s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/dds_fastrtps
+[6.872s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__rosidl_typesupport_fastrtps_cpp.hpp
+[6.872s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg
+[6.872s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.873s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_fastrtps_cpp.so
+[6.873s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.873s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv
+[6.873s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv
+[6.873s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail
+[6.873s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__rosidl_typesupport_introspection_c.h
+[6.873s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__rosidl_typesupport_introspection_c.h
+[6.874s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__type_support.c
+[6.874s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__type_support.c
+[6.874s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg
+[6.874s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.874s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_introspection_c.so
+[6.875s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_introspection_c.so" to ""
+[6.875s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_c.so
+[6.875s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_c.so" to ""
+[6.876s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv
+[6.876s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv
+[6.876s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/generate_point.hpp
+[6.877s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/user_input.hpp
+[6.877s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail
+[6.877s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__traits.hpp
+[6.877s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__traits.hpp
+[6.878s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__builder.hpp
+[6.878s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__struct.hpp
+[6.878s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__builder.hpp
+[6.878s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__struct.hpp
+[6.878s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv
+[6.878s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv
+[6.879s] -- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail
+[6.879s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__type_support.cpp
+[6.879s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__type_support.cpp
+[6.879s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__rosidl_typesupport_introspection_cpp.hpp
+[6.879s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__rosidl_typesupport_introspection_cpp.hpp
+[6.879s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_introspection_cpp.so
+[6.880s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_introspection_cpp.so" to ""
+[6.880s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_cpp.so
+[6.880s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_cpp.so" to ""
+[6.880s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/pythonpath.sh
+[6.880s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/pythonpath.dsv
+[6.880s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/__init__.py
+[6.921s] Compiling '/root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/__init__.py'...
+[6.929s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv
+[6.930s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/_user_input.py
+[6.930s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/_generate_point_s.c
+[6.930s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/_generate_point.py
+[6.930s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/__init__.py
+[6.930s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/_user_input_s.c
+[6.931s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.931s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.932s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.932s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.933s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.934s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.934s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__python.so
+[6.934s] -- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__python.so" to ""
+[6.934s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/GeneratePoint.idl
+[6.935s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/UserInput.idl
+[6.935s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/GeneratePoint.srv
+[6.935s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/GeneratePoint_Request.msg
+[6.936s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/GeneratePoint_Response.msg
+[6.936s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/UserInput.srv
+[6.936s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/UserInput_Request.msg
+[6.936s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/UserInput_Response.msg
+[6.937s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/ament_index/resource_index/package_run_dependencies/assignment2_srv
+[6.937s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/ament_index/resource_index/parent_prefix_path/assignment2_srv
+[6.937s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/ament_prefix_path.sh
+[6.938s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/ament_prefix_path.dsv
+[6.938s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/path.sh
+[6.938s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/path.dsv
+[6.938s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/local_setup.bash
+[6.938s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/local_setup.sh
+[6.939s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/local_setup.zsh
+[6.939s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/local_setup.dsv
+[6.940s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/package.dsv
+[6.940s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/ament_index/resource_index/packages/assignment2_srv
+[6.940s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_generator_cExport.cmake
+[6.941s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_generator_cExport-noconfig.cmake
+[6.941s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_introspection_cExport.cmake
+[6.941s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.942s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_cExport.cmake
+[6.942s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_cExport-noconfig.cmake
+[6.943s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_generator_cppExport.cmake
+[6.943s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_introspection_cppExport.cmake
+[6.943s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.944s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_cppExport.cmake
+[6.944s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[6.944s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/rosidl_cmake-extras.cmake
+[6.945s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.945s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/ament_cmake_export_libraries-extras.cmake
+[6.945s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/ament_cmake_export_targets-extras.cmake
+[6.946s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.946s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.946s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.947s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srvConfig.cmake
+[6.947s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srvConfig-version.cmake
+[6.947s] -- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/package.xml
+[6.951s] Invoked command in '/root/assignment2/a2ros2ws/build/assignment2_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/assignment2/a2ros2ws/build/assignment2_srv

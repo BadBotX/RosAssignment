@@ -1,0 +1,4 @@
+source;share/assignment2_srv/local_setup.bash
+source;share/assignment2_srv/local_setup.dsv
+source;share/assignment2_srv/local_setup.sh
+source;share/assignment2_srv/local_setup.zsh

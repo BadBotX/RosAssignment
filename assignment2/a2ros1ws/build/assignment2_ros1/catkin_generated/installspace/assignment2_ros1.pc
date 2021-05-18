@@ -1,0 +1,8 @@
+prefix=/root/assignment2/a2ros1ws/install
+
+Name: assignment2_ros1
+Description: Description of assignment2_ros1
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

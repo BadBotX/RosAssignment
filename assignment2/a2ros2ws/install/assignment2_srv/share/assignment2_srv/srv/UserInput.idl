@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from assignment2_srv/srv/UserInput.srv
+// generated code does not contain a copyright notice
+
+
+module assignment2_srv {
+  module srv {
+    struct UserInput_Request {
+      int64 user_input;
+    };
+    struct UserInput_Response {
+      boolean success;
+    };
+  };
+};

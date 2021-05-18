@@ -1,0 +1,7 @@
+{
+  "package_name": "assignment2_srv",
+  "non_idl_tuples": [
+    "/root/assignment2/a2ros2ws/src/assignment2_srv:srv/GeneratePoint.srv",
+    "/root/assignment2/a2ros2ws/src/assignment2_srv:srv/UserInput.srv"
+  ]
+}

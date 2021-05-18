@@ -1,0 +1,18 @@
+Assignment 1:
+Step 1: Build the package 
+Step 2: Run roslaunch assignment1 wall.launch
+Step 3: Run roslaunch assignment1 otherservices.lauch
+Step 4: Run rosrun assignment1 controller.py
+Step 5: Run rosrun move_robot_ui_service.py
+
+Assignment 2:
+Step 1: Build the ros1 part in ros1 environment
+Step 2: Build the ros2 part in ros2 environment
+Step 3: Build the ros1_bridge in ros1/ros2 hybrid environment
+Step 4: Run roslaunch assignment2_ros1 wall.launch in ros1 environment
+Step 5: Run roslaunch assignment2_ros1 otherservices.lauch in ros1 environment
+Step 6: Run rosrun assignment2_ros1 controller.py in ros1 environment
+Step 7: Run ros2 run ros1_bridge dynamic_bridge in ros1/ros2 hybrid environment
+Step 8: Run ros2 run assignment2_ros2 service1 in ros2 environment
+Step 9: Run ros2 run assignment2_ros2 service2 in ros2 environment
+

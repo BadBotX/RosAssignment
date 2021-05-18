@@ -1,0 +1,6 @@
+Invoking command in '/root/assignment2/a2ros2ws/build/assignment2_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/assignment2/a2ros2ws/src/assignment2_srv -DCMAKE_INSTALL_PREFIX=/root/assignment2/a2ros2ws/install/assignment2_srv
+Invoked command in '/root/assignment2/a2ros2ws/build/assignment2_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/assignment2/a2ros2ws/src/assignment2_srv -DCMAKE_INSTALL_PREFIX=/root/assignment2/a2ros2ws/install/assignment2_srv
+Invoking command in '/root/assignment2/a2ros2ws/build/assignment2_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/assignment2/a2ros2ws/build/assignment2_srv -- -j8 -l8
+Invoked command in '/root/assignment2/a2ros2ws/build/assignment2_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/assignment2/a2ros2ws/build/assignment2_srv -- -j8 -l8
+Invoking command in '/root/assignment2/a2ros2ws/build/assignment2_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/assignment2/a2ros2ws/build/assignment2_srv
+Invoked command in '/root/assignment2/a2ros2ws/build/assignment2_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/assignment2/a2ros2ws/build/assignment2_srv

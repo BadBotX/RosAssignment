@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="assignment2_ros1" type="wall_follow_service.py" name="wall_follower" />
+    <node pkg="assignment2_ros1" type="go_to_point_service.py" name="go_to_point" />
+</launch>

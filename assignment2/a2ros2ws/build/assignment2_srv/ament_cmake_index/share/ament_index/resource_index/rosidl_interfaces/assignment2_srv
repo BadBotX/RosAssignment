@@ -1,0 +1,8 @@
+srv/GeneratePoint.idl
+srv/GeneratePoint.srv
+srv/GeneratePoint_Request.msg
+srv/GeneratePoint_Response.msg
+srv/UserInput.idl
+srv/UserInput.srv
+srv/UserInput_Request.msg
+srv/UserInput_Response.msg

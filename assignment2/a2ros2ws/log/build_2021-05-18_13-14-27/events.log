@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (-) JobUnselected: {'identifier': 'assignment2_ros2'}
+[0.000396] (assignment2_srv) JobQueued: {'identifier': 'assignment2_srv', 'dependencies': OrderedDict()}
+[0.000503] (assignment2_srv) JobStarted: {'identifier': 'assignment2_srv'}
+[0.013250] (assignment2_srv) JobProgress: {'identifier': 'assignment2_srv', 'progress': 'cmake'}
+[0.013745] (assignment2_srv) Command: {'cmd': ['/usr/bin/cmake', '/root/assignment2/a2ros2ws/src/assignment2_srv', '-DCMAKE_INSTALL_PREFIX=/root/assignment2/a2ros2ws/install/assignment2_srv'], 'cwd': '/root/assignment2/a2ros2ws/build/assignment2_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '5325ea6b5934'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/assignment2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6bd31af-82e7-4627-bfda-2cda3e6e790d'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/root/assignment2/a2ros2ws/build/assignment2_srv'), ('RESOLUTION', '1920x1080'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098344] (-) TimerEvent: {}
+[0.100283] (assignment2_srv) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.174882] (assignment2_srv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.184312] (assignment2_srv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.198454] (-) TimerEvent: {}
+[0.267736] (assignment2_srv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.270366] (assignment2_srv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298607] (-) TimerEvent: {}
+[0.367570] (assignment2_srv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.385510] (assignment2_srv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.386071] (assignment2_srv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.390349] (assignment2_srv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.398761] (-) TimerEvent: {}
+[0.498334] (assignment2_srv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.498855] (-) TimerEvent: {}
+[0.500174] (assignment2_srv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599054] (-) TimerEvent: {}
+[0.605121] (assignment2_srv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.630506] (assignment2_srv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.631142] (assignment2_srv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.633637] (assignment2_srv) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.668020] (assignment2_srv) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.668572] (assignment2_srv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.699333] (-) TimerEvent: {}
+[0.799810] (-) TimerEvent: {}
+[0.900250] (-) TimerEvent: {}
+[0.981646] (assignment2_srv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.985372] (assignment2_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.994861] (assignment2_srv) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.000373] (-) TimerEvent: {}
+[1.100687] (-) TimerEvent: {}
+[1.130747] (assignment2_srv) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.177219] (assignment2_srv) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.200920] (-) TimerEvent: {}
+[1.301346] (-) TimerEvent: {}
+[1.308237] (assignment2_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.383181] (assignment2_srv) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.401498] (-) TimerEvent: {}
+[1.501837] (-) TimerEvent: {}
+[1.554858] (assignment2_srv) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.602038] (-) TimerEvent: {}
+[1.702518] (-) TimerEvent: {}
+[1.719623] (assignment2_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.729997] (assignment2_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.759156] (assignment2_srv) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.762151] (assignment2_srv) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.796710] (assignment2_srv) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.797158] (assignment2_srv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.797302] (assignment2_srv) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.797401] (assignment2_srv) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.802727] (-) TimerEvent: {}
+[1.824152] (assignment2_srv) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.881270] (assignment2_srv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.902864] (-) TimerEvent: {}
+[1.908421] (assignment2_srv) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.913362] (assignment2_srv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.915315] (assignment2_srv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.922088] (assignment2_srv) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.966156] (assignment2_srv) StdoutLine: {'line': b'-- Generating done\n'}
+[1.974517] (assignment2_srv) StdoutLine: {'line': b'-- Build files have been written to: /root/assignment2/a2ros2ws/build/assignment2_srv\n'}
+[1.981779] (assignment2_srv) CommandEnded: {'returncode': 0}
+[1.984985] (assignment2_srv) JobProgress: {'identifier': 'assignment2_srv', 'progress': 'build'}
+[1.985118] (assignment2_srv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/assignment2/a2ros2ws/build/assignment2_srv', '--', '-j8', '-l8'], 'cwd': '/root/assignment2/a2ros2ws/build/assignment2_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '5325ea6b5934'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/assignment2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6bd31af-82e7-4627-bfda-2cda3e6e790d'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/root/assignment2/a2ros2ws/build/assignment2_srv'), ('RESOLUTION', '1920x1080'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.003080] (-) TimerEvent: {}
+[2.036652] (assignment2_srv) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.036878] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__cpp\x1b[0m\n'}
+[2.049253] (assignment2_srv) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.103223] (-) TimerEvent: {}
+[2.203626] (-) TimerEvent: {}
+[2.303975] (-) TimerEvent: {}
+[2.404349] (-) TimerEvent: {}
+[2.504855] (-) TimerEvent: {}
+[2.596364] (assignment2_srv) StdoutLine: {'line': b'[  5%] Built target assignment2_srv__cpp\n'}
+[2.598112] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_generator_c\x1b[0m\n'}
+[2.605055] (-) TimerEvent: {}
+[2.610615] (assignment2_srv) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.613006] (assignment2_srv) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.613293] (assignment2_srv) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.613577] (assignment2_srv) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__rosidl_generator_c.dir/rosidl_generator_c/assignment2_srv/srv/detail/user_input__functions.c.o\x1b[0m\n'}
+[2.621195] (assignment2_srv) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__rosidl_generator_c.dir/rosidl_generator_c/assignment2_srv/srv/detail/generate_point__functions.c.o\x1b[0m\n'}
+[2.700425] (assignment2_srv) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libassignment2_srv__rosidl_generator_c.so\x1b[0m\n'}
+[2.705201] (-) TimerEvent: {}
+[2.744471] (assignment2_srv) StdoutLine: {'line': b'[ 20%] Built target assignment2_srv__rosidl_generator_c\n'}
+[2.757437] (assignment2_srv) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.762146] (assignment2_srv) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.805373] (-) TimerEvent: {}
+[2.905828] (-) TimerEvent: {}
+[3.006292] (-) TimerEvent: {}
+[3.107009] (-) TimerEvent: {}
+[3.130578] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.151596] (assignment2_srv) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_srv/srv/generate_point__type_support.cpp.o\x1b[0m\n'}
+[3.152190] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.152392] (assignment2_srv) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_srv/srv/user_input__type_support.cpp.o\x1b[0m\n'}
+[3.175242] (assignment2_srv) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_srv/srv/detail/generate_point__type_support.cpp.o\x1b[0m\n'}
+[3.175515] (assignment2_srv) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_srv/srv/detail/user_input__type_support.cpp.o\x1b[0m\n'}
+[3.207353] (-) TimerEvent: {}
+[3.254218] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_c\x1b[0m\n'}
+[3.254595] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.274946] (assignment2_srv) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_srv/srv/user_input__type_support.cpp.o\x1b[0m\n'}
+[3.278930] (assignment2_srv) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_srv/srv/generate_point__type_support.cpp.o\x1b[0m\n'}
+[3.293708] (assignment2_srv) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_srv/srv/detail/dds_fastrtps/generate_point__type_support.cpp.o\x1b[0m\n'}
+[3.307426] (-) TimerEvent: {}
+[3.338284] (assignment2_srv) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.343191] (assignment2_srv) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_srv/srv/detail/dds_fastrtps/user_input__type_support.cpp.o\x1b[0m\n'}
+[3.407575] (-) TimerEvent: {}
+[3.421354] (assignment2_srv) StdoutLine: {'line': b'[ 48%] Built target assignment2_srv__rosidl_typesupport_c\n'}
+[3.433978] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.456270] (assignment2_srv) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_srv/srv/detail/generate_point__type_support.c.o\x1b[0m\n'}
+[3.457769] (assignment2_srv) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_srv/srv/detail/user_input__type_support.c.o\x1b[0m\n'}
+[3.508663] (-) TimerEvent: {}
+[3.523934] (assignment2_srv) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libassignment2_srv__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.579718] (assignment2_srv) StdoutLine: {'line': b'[ 56%] Built target assignment2_srv__rosidl_typesupport_introspection_c\n'}
+[3.608932] (-) TimerEvent: {}
+[3.690696] (assignment2_srv) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.709063] (-) TimerEvent: {}
+[3.724188] (assignment2_srv) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.754139] (assignment2_srv) StdoutLine: {'line': b'[ 61%] Built target assignment2_srv__rosidl_typesupport_cpp\n'}
+[3.783727] (assignment2_srv) StdoutLine: {'line': b'[ 61%] Built target assignment2_srv__rosidl_typesupport_introspection_cpp\n'}
+[3.809246] (-) TimerEvent: {}
+[3.909830] (-) TimerEvent: {}
+[4.006020] (assignment2_srv) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.009988] (-) TimerEvent: {}
+[4.106938] (assignment2_srv) StdoutLine: {'line': b'[ 64%] Built target assignment2_srv__rosidl_typesupport_fastrtps_cpp\n'}
+[4.110210] (-) TimerEvent: {}
+[4.119565] (assignment2_srv) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.210405] (-) TimerEvent: {}
+[4.310763] (-) TimerEvent: {}
+[4.411239] (-) TimerEvent: {}
+[4.511732] (-) TimerEvent: {}
+[4.612102] (-) TimerEvent: {}
+[4.638419] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.661138] (assignment2_srv) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_srv/srv/detail/user_input__type_support_c.cpp.o\x1b[0m\n'}
+[4.661347] (assignment2_srv) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_srv/srv/detail/generate_point__type_support_c.cpp.o\x1b[0m\n'}
+[4.712251] (-) TimerEvent: {}
+[4.812674] (-) TimerEvent: {}
+[4.913062] (-) TimerEvent: {}
+[5.013460] (-) TimerEvent: {}
+[5.110904] (assignment2_srv) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libassignment2_srv__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.113580] (-) TimerEvent: {}
+[5.211092] (assignment2_srv) StdoutLine: {'line': b'[ 74%] Built target assignment2_srv__rosidl_typesupport_fastrtps_c\n'}
+[5.213733] (-) TimerEvent: {}
+[5.223526] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv\x1b[0m\n'}
+[5.237618] (assignment2_srv) StdoutLine: {'line': b'[ 74%] Built target assignment2_srv\n'}
+[5.249645] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__py\x1b[0m\n'}
+[5.261610] (assignment2_srv) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.313927] (-) TimerEvent: {}
+[5.414288] (-) TimerEvent: {}
+[5.514668] (-) TimerEvent: {}
+[5.615079] (-) TimerEvent: {}
+[5.715472] (-) TimerEvent: {}
+[5.815867] (-) TimerEvent: {}
+[5.916408] (-) TimerEvent: {}
+[6.016757] (-) TimerEvent: {}
+[6.117170] (-) TimerEvent: {}
+[6.217569] (-) TimerEvent: {}
+[6.250791] (assignment2_srv) StdoutLine: {'line': b'[ 76%] Built target assignment2_srv__py\n'}
+[6.262562] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__python\x1b[0m\n'}
+[6.295061] (assignment2_srv) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__python.dir/rosidl_generator_py/assignment2_srv/srv/_generate_point_s.c.o\x1b[0m\n'}
+[6.295268] (assignment2_srv) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__python.dir/rosidl_generator_py/assignment2_srv/srv/_user_input_s.c.o\x1b[0m\n'}
+[6.317795] (-) TimerEvent: {}
+[6.418016] (assignment2_srv) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/assignment2_srv/libassignment2_srv__python.so\x1b[0m\n'}
+[6.418380] (-) TimerEvent: {}
+[6.464636] (assignment2_srv) StdoutLine: {'line': b'[ 84%] Built target assignment2_srv__python\n'}
+[6.480188] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.480394] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.482293] (assignment2_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target assignment2_srv__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.504760] (assignment2_srv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/assignment2_srv/_assignment2_srv_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.505627] (assignment2_srv) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/assignment2_srv/_assignment2_srv_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.509005] (assignment2_srv) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/assignment2_srv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/assignment2_srv/_assignment2_srv_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.518554] (-) TimerEvent: {}
+[6.618927] (-) TimerEvent: {}
+[6.636808] (assignment2_srv) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/assignment2_srv/assignment2_srv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.639759] (assignment2_srv) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/assignment2_srv/assignment2_srv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.645872] (assignment2_srv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/assignment2_srv/assignment2_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.680655] (assignment2_srv) StdoutLine: {'line': b'[100%] Built target assignment2_srv__rosidl_typesupport_introspection_c__pyext\n'}
+[6.683572] (assignment2_srv) StdoutLine: {'line': b'[100%] Built target assignment2_srv__rosidl_typesupport_c__pyext\n'}
+[6.719048] (-) TimerEvent: {}
+[6.730583] (assignment2_srv) StdoutLine: {'line': b'[100%] Built target assignment2_srv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.743910] (assignment2_srv) CommandEnded: {'returncode': 0}
+[6.819271] (-) TimerEvent: {}
+[6.837024] (assignment2_srv) JobProgress: {'identifier': 'assignment2_srv', 'progress': 'install'}
+[6.850878] (assignment2_srv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/assignment2/a2ros2ws/build/assignment2_srv'], 'cwd': '/root/assignment2/a2ros2ws/build/assignment2_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '5325ea6b5934'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/assignment2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a6bd31af-82e7-4627-bfda-2cda3e6e790d'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/root/assignment2/a2ros2ws/build/assignment2_srv'), ('RESOLUTION', '1920x1080'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.861300] (assignment2_srv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.861925] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/my_mapping_rules.yaml\n'}
+[6.862075] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/ament_index/resource_index/rosidl_interfaces/assignment2_srv\n'}
+[6.862528] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv\n'}
+[6.863039] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv\n'}
+[6.863608] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/generate_point.h\n'}
+[6.863880] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/user_input.h\n'}
+[6.864329] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail\n'}
+[6.864534] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__functions.c\n'}
+[6.864883] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__functions.c\n'}
+[6.865342] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__struct.h\n'}
+[6.865824] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__type_support.h\n'}
+[6.866285] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__functions.h\n'}
+[6.866469] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__type_support.h\n'}
+[6.866797] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__functions.h\n'}
+[6.866953] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__struct.h\n'}
+[6.867184] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg\n'}
+[6.867407] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.867725] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/library_path.sh\n'}
+[6.867965] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/library_path.dsv\n'}
+[6.868313] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_generator_c.so\n'}
+[6.868704] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_generator_c.so" to ""\n'}
+[6.868960] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv\n'}
+[6.869090] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv\n'}
+[6.869195] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail\n'}
+[6.869297] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__rosidl_typesupport_fastrtps_c.h\n'}
+[6.869448] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__rosidl_typesupport_fastrtps_c.h\n'}
+[6.869564] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg\n'}
+[6.870076] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.870461] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_fastrtps_c.so\n'}
+[6.870975] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.871093] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv\n'}
+[6.871312] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv\n'}
+[6.871422] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail\n'}
+[6.871529] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.871635] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/dds_fastrtps\n'}
+[6.871747] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.872267] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg\n'}
+[6.872514] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.872768] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.873284] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.873401] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv\n'}
+[6.873612] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv\n'}
+[6.873721] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail\n'}
+[6.873827] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__rosidl_typesupport_introspection_c.h\n'}
+[6.873931] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__rosidl_typesupport_introspection_c.h\n'}
+[6.874035] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__type_support.c\n'}
+[6.874356] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__type_support.c\n'}
+[6.874468] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg\n'}
+[6.874579] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.874680] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_introspection_c.so\n'}
+[6.874903] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.875312] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_c.so\n'}
+[6.875720] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_c.so" to ""\n'}
+[6.875991] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv\n'}
+[6.876397] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv\n'}
+[6.876781] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/generate_point.hpp\n'}
+[6.877109] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/user_input.hpp\n'}
+[6.877324] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail\n'}
+[6.877561] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__traits.hpp\n'}
+[6.877906] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__traits.hpp\n'}
+[6.878021] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__builder.hpp\n'}
+[6.878250] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__struct.hpp\n'}
+[6.878356] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__builder.hpp\n'}
+[6.878457] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__struct.hpp\n'}
+[6.878558] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv\n'}
+[6.878658] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv\n'}
+[6.878885] (assignment2_srv) StdoutLine: {'line': b'-- Up-to-date: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail\n'}
+[6.879120] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__type_support.cpp\n'}
+[6.879222] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__type_support.cpp\n'}
+[6.879322] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/user_input__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.879422] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/include/assignment2_srv/srv/detail/generate_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.879765] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_introspection_cpp.so\n'}
+[6.879881] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.880113] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_cpp.so\n'}
+[6.880216] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__rosidl_typesupport_cpp.so" to ""\n'}
+[6.880446] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/pythonpath.sh\n'}
+[6.880548] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/pythonpath.dsv\n'}
+[6.880647] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/__init__.py\n'}
+[6.919422] (-) TimerEvent: {}
+[6.921348] (assignment2_srv) StdoutLine: {'line': b"Compiling '/root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/__init__.py'...\n"}
+[6.929230] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv\n'}
+[6.929862] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/_user_input.py\n'}
+[6.930273] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/_generate_point_s.c\n'}
+[6.930585] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/_generate_point.py\n'}
+[6.930709] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/__init__.py\n'}
+[6.930982] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/srv/_user_input_s.c\n'}
+[6.931093] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.931706] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.931982] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.932726] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.933139] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.933826] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/python3.8/site-packages/assignment2_srv/assignment2_srv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.934122] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__python.so\n'}
+[6.934563] (assignment2_srv) StdoutLine: {'line': b'-- Set runtime path of "/root/assignment2/a2ros2ws/install/assignment2_srv/lib/libassignment2_srv__python.so" to ""\n'}
+[6.934844] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/GeneratePoint.idl\n'}
+[6.935128] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/UserInput.idl\n'}
+[6.935516] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/GeneratePoint.srv\n'}
+[6.935805] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/GeneratePoint_Request.msg\n'}
+[6.936097] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/GeneratePoint_Response.msg\n'}
+[6.936512] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/UserInput.srv\n'}
+[6.936636] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/UserInput_Request.msg\n'}
+[6.936879] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/srv/UserInput_Response.msg\n'}
+[6.937116] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/ament_index/resource_index/package_run_dependencies/assignment2_srv\n'}
+[6.937361] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/ament_index/resource_index/parent_prefix_path/assignment2_srv\n'}
+[6.937604] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/ament_prefix_path.sh\n'}
+[6.937836] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/ament_prefix_path.dsv\n'}
+[6.938140] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/path.sh\n'}
+[6.938378] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/environment/path.dsv\n'}
+[6.938497] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/local_setup.bash\n'}
+[6.938801] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/local_setup.sh\n'}
+[6.939167] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/local_setup.zsh\n'}
+[6.939321] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/local_setup.dsv\n'}
+[6.940211] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/package.dsv\n'}
+[6.940436] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/ament_index/resource_index/packages/assignment2_srv\n'}
+[6.940747] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_generator_cExport.cmake\n'}
+[6.941074] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.941477] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.941808] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.942186] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_cExport.cmake\n'}
+[6.942593] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.943068] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_generator_cppExport.cmake\n'}
+[6.943454] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.943609] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.944025] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_cppExport.cmake\n'}
+[6.944309] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.944702] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/rosidl_cmake-extras.cmake\n'}
+[6.945035] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.945367] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.945712] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.946118] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.946568] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.946922] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.947182] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srvConfig.cmake\n'}
+[6.947443] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/cmake/assignment2_srvConfig-version.cmake\n'}
+[6.947708] (assignment2_srv) StdoutLine: {'line': b'-- Installing: /root/assignment2/a2ros2ws/install/assignment2_srv/share/assignment2_srv/package.xml\n'}
+[6.951016] (assignment2_srv) CommandEnded: {'returncode': 0}
+[7.019730] (-) TimerEvent: {}
+[7.081071] (assignment2_srv) JobEnded: {'identifier': 'assignment2_srv', 'rc': 0}
+[7.083419] (-) EventReactorShutdown: {}

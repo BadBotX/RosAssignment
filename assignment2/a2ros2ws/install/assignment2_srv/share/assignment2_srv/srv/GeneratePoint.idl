@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from assignment2_srv/srv/GeneratePoint.srv
+// generated code does not contain a copyright notice
+
+
+module assignment2_srv {
+  module srv {
+    struct GeneratePoint_Request {
+      boolean gp_call;
+    };
+    struct GeneratePoint_Response {
+      double x;
+
+      double y;
+    };
+  };
+};

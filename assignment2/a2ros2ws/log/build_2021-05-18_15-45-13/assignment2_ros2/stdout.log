@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/assignment2_ros2/assignment2_ros2.egg-info
+writing ../../build/assignment2_ros2/assignment2_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/assignment2_ros2/assignment2_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/assignment2_ros2/assignment2_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/assignment2_ros2/assignment2_ros2.egg-info/requires.txt
+writing top-level names to ../../build/assignment2_ros2/assignment2_ros2.egg-info/top_level.txt
+writing manifest file '../../build/assignment2_ros2/assignment2_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/assignment2_ros2/assignment2_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/assignment2_ros2/assignment2_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/assignment2/a2ros2ws/build/assignment2_ros2/build
+creating /root/assignment2/a2ros2ws/build/assignment2_ros2/build/lib
+creating /root/assignment2/a2ros2ws/build/assignment2_ros2/build/lib/assignment2_ros2
+copying assignment2_ros2/generate_random_point_service.py -> /root/assignment2/a2ros2ws/build/assignment2_ros2/build/lib/assignment2_ros2
+copying assignment2_ros2/move_robot_ui_client.py -> /root/assignment2/a2ros2ws/build/assignment2_ros2/build/lib/assignment2_ros2
+copying assignment2_ros2/__init__.py -> /root/assignment2/a2ros2ws/build/assignment2_ros2/build/lib/assignment2_ros2
+running install
+running install_lib
+creating /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/python3.8/site-packages/assignment2_ros2
+copying /root/assignment2/a2ros2ws/build/assignment2_ros2/build/lib/assignment2_ros2/generate_random_point_service.py -> /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/python3.8/site-packages/assignment2_ros2
+copying /root/assignment2/a2ros2ws/build/assignment2_ros2/build/lib/assignment2_ros2/move_robot_ui_client.py -> /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/python3.8/site-packages/assignment2_ros2
+copying /root/assignment2/a2ros2ws/build/assignment2_ros2/build/lib/assignment2_ros2/__init__.py -> /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/python3.8/site-packages/assignment2_ros2
+byte-compiling /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/python3.8/site-packages/assignment2_ros2/generate_random_point_service.py to generate_random_point_service.cpython-38.pyc
+byte-compiling /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/python3.8/site-packages/assignment2_ros2/move_robot_ui_client.py to move_robot_ui_client.cpython-38.pyc
+byte-compiling /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/python3.8/site-packages/assignment2_ros2/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /root/assignment2/a2ros2ws/install/assignment2_ros2/share/ament_index
+creating /root/assignment2/a2ros2ws/install/assignment2_ros2/share/ament_index/resource_index
+creating /root/assignment2/a2ros2ws/install/assignment2_ros2/share/ament_index/resource_index/packages
+copying resource/assignment2_ros2 -> /root/assignment2/a2ros2ws/install/assignment2_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /root/assignment2/a2ros2ws/install/assignment2_ros2/share/assignment2_ros2
+running install_egg_info
+Copying ../../build/assignment2_ros2/assignment2_ros2.egg-info to /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/python3.8/site-packages/assignment2_ros2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing service1 script to /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/assignment2_ros2
+Installing service2 script to /root/assignment2/a2ros2ws/install/assignment2_ros2/lib/assignment2_ros2
+writing list of installed files to '/root/assignment2/a2ros2ws/build/assignment2_ros2/install.log'

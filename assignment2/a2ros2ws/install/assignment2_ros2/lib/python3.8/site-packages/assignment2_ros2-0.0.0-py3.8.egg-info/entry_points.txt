@@ -1,0 +1,4 @@
+[console_scripts]
+service1 = assignment2_ros2.generate_random_point_service:main
+service2 = assignment2_ros2.move_robot_ui_client:main
+
